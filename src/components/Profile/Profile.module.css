@@ -1,0 +1,62 @@
+.profileContainer {
+  width: 50%;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+  border: 2px solid #222222;
+  margin-bottom: 50px;
+}
+
+.profileContainerHead {
+  padding: 15px;
+  text-align: center;
+}
+
+.profileImg {
+  background-color: #222222;
+  border-radius: 100%;
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.profileName {
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.profileTag,
+.profileLocation {
+  font-size: 20px;
+  color: #919191;
+  margin-bottom: 5px;
+}
+
+.profileList {
+  display: flex;
+  overflow: hidden;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.profileListItem {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+  padding: 10px;
+  background-color: #c4c4c4;
+  border: 0px solid transparent;
+  border-top: 1px solid #919191;
+  border-right: 1px solid #919191;
+  overflow: hidden;
+}
+
+.profileListItem:last-child {
+  border-right: 0px solid #919191;
+}
+
+.profileListItemSubtitle {
+  font-size: 18px;
+  font-weight: 600;
+}

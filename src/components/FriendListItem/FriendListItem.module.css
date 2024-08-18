@@ -1,0 +1,17 @@
+.friendListItemImg {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.friendListItemName {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.textRed {
+    color: red;
+}
+
+.textGreen {
+    color: green;
+}
